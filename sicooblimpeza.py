@@ -3,6 +3,9 @@ import shutil
 import subprocess
 count = 0
 option = 9
+
+#PRECISA SER EXECUTADO COMO ADMINISTRADOR!
+
 username = os.getenv('USERNAME')
 def deletar_files(caminho):
     for root,dirs,files in os.walk(caminho):
